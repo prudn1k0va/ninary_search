@@ -3,6 +3,21 @@ using namespace std;
 
 int main()
 {
+
+    int Binsearch;
+    const int n = 5;
+    int A[n] = { 1,2,3,4,5 };
+    int x;
+
+
+
+    cout << "find this -> ";
+    cin >> x;
+
+    cout << BinSearch(A, n, x);
+
+    return 0;
+
 }
 
 int BinSearch(int* M, int n, int k)
